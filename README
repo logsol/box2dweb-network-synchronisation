@@ -1,1 +1,8 @@
-box2d physic networking
+h1. box2d physic networking
+
+this is a demo of 13 boxes, that are controlled by a centralised physic engine on the server. Each client has an engine of its own for dead reckoning. All boxes are updated with position, rotation, linear velocity and angular velocity.
+
+h1. how to use
+start it by typing this into the terminal: node server.js
+
+and open index.html via a webserver (apache or the like) at 127.0.0.1
