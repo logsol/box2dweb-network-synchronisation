@@ -2,7 +2,7 @@ var bodiesNum = 13;
 var world;
 
 var xport = 8003;
-var xhost = 'fuuuuu.de';
+var xhost = '127.0.0.1';
 
 
 var	b2Vec2 = Box2D.Common.Math.b2Vec2,

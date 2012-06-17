@@ -113,7 +113,7 @@ var server = http.createServer(
 
 
 server.listen(xport, xhost);
-console.log('port', xport);
+console.log('Starting socket server on port port %d', xport);
 var socket = io.listen(server);
 
 socket.configure('development', function(){
